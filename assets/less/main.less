@@ -1,0 +1,152 @@
+body {
+   background-color: @background-light;
+   background-image: url('../../assets/img/casa-01.jpg');
+   background-size: cover;
+   overflow: hidden;
+}
+
+// Nav
+
+.select {
+   border: 1px solid @primary;
+   background-color: @background;
+   color: @primary;
+   padding: 4px;
+   height: 40px;
+}
+
+.header {
+   width: 275px;
+   height: 100vh;
+   background-color: @background;
+   z-index: 2;
+   &.hide {
+      width: 137.5px;
+      display: flex;
+      justify-content: center;
+      transition: .5s all ease;
+   }
+}
+
+.nav {
+   &.hide {
+      display: none;
+   }
+}
+
+.menu {
+   display: flex;
+   flex-direction: column;
+   flex-flow: wrap;
+   align-items: center;
+   justify-content: center;
+   &-toggle {
+      display: flex;
+      margin-top: 38px;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+   }
+   &-item {
+      width: 50%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px 0;
+      filter: opacity(0.5);
+      &:hover {
+         filter: none;
+      }
+   }
+}
+
+.info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   &-text {
+      color: @primary;
+      margin: 24px 0 12px;
+   }
+}
+
+.button {
+   align-items: center;
+   background-color: @secondary;
+   border-radius: 20px;
+   border: 1px solid @secondary;
+   color: @primary;
+   display: flex;
+   height: 24px;
+   padding: 0 8px;
+   justify-content: space-around;
+   text-transform: uppercase;
+   font-family: 'Lato', sans-serif;
+   &:hover {
+      background-color: transparent;
+      transition: .3s all ease;
+   }
+   &-arrow {
+      margin-left: 8px;
+   }
+   &-menu {
+      &.fixed {
+         margin-top: 44px;
+         position: fixed;
+         top: 0;
+         left: 49px;
+         display: none;
+         &.show {
+            display: block;
+         }
+      }
+   }
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+   margin: 10px 0;
+}
+
+.social {
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   &-wrapper {
+      width: 60%;
+      justify-content: space-around;
+      display: flex;
+   }
+}
+
+.contact {
+   position: relative;
+   bottom: 160px;
+   left: 175px;
+   z-index: -1;
+   &.hide {
+      left: 50px;
+      transition: .5s all ease;
+   }
+}
+
+// Animations
+
+.fade-in {
+   opacity: 1;
+   animation-name: fadeInOpacity;
+   animation-iteration-count: 1;
+   animation-timing-function: ease-in;
+   animation-duration: 0.3s;
+}
+
+@keyframes fadeInOpacity {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}

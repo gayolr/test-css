@@ -1,0 +1,10 @@
+<svg id="Component_42_1" data-name="Component 42 – 1" xmlns="http://www.w3.org/2000/svg" width="77" height="54.895" viewBox="0 0 77 54.895">
+  <text id="documents" transform="translate(0 51.895)" fill="#f4f8fc" font-size="12" font-family="WorkSans-Medium, Work Sans" font-weight="500"><tspan x="0" y="0">DOCUMENTS</tspan></text>
+  <g id="Group_372" data-name="Group 372" transform="translate(-483.087 -506.304)">
+    <path id="Path_381" data-name="Path 381" d="M533.545,514.067l-7.125-7.125a2.178,2.178,0,0,0-1.537-.638H510.262a2.174,2.174,0,0,0-2.175,2.175v27.545a2.174,2.174,0,0,0,2.175,2.175h21.746a2.174,2.174,0,0,0,2.175-2.175V515.6A2.175,2.175,0,0,0,533.545,514.067Zm-7.336-5.292,5.5,5.5h-4.777a.725.725,0,0,1-.725-.725Zm5.8,27.973H510.262a.725.725,0,0,1-.725-.725V508.479a.725.725,0,0,1,.725-.725h14.5v5.8a2.175,2.175,0,0,0,2.175,2.175h5.8v20.3A.725.725,0,0,1,532.008,536.749Z" transform="translate(0)" fill="#aaa"/>
+    <path id="Path_382" data-name="Path 382" d="M513.812,519.754h7.249a.725.725,0,1,0,0-1.45h-7.249a.725.725,0,0,0,0,1.45Z" transform="translate(-1.376 -3.302)" fill="#aaa"/>
+    <path id="Path_383" data-name="Path 383" d="M531.209,524.3h-17.4a.725.725,0,0,0,0,1.45h17.4a.725.725,0,0,0,0-1.45Z" transform="translate(-1.376 -4.952)" fill="#aaa"/>
+    <path id="Path_384" data-name="Path 384" d="M531.209,530.3h-17.4a.725.725,0,0,0,0,1.45h17.4a.725.725,0,0,0,0-1.45Z" transform="translate(-1.376 -6.603)" fill="#aaa"/>
+    <path id="Path_385" data-name="Path 385" d="M531.209,536.3h-17.4a.725.725,0,0,0,0,1.45h17.4a.725.725,0,0,0,0-1.45Z" transform="translate(-1.376 -8.254)" fill="#aaa"/>
+  </g>
+</svg>
